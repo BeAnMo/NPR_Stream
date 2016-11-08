@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "NPR Stream",
+	"version": "11.02.2016",
+	
+	"description": "Stream NPR from your browser without having to worry about another open tab.",
+	"homepage_url": "https://beanmo.github.io",
+	"icons": {
+		"48": "icons/radio-48.png"
+	},
+	
+	"permissions": ["tabs"],
+	
+	"browser_action": {
+		"default_icon": "icons/radio-32.png",
+		"default_title": "NPR Stream"
+	},
+	
+	"background": {
+		"scripts": ["content_scripts/bg2.js"]
+	}
+}
