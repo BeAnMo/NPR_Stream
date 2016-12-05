@@ -1,2 +1,2 @@
 # NPR_Stream
-Streaming NPR Broadcasts
+Stream NPR from the comfort of your browser toolbar.
